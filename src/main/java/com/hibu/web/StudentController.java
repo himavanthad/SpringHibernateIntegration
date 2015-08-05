@@ -23,6 +23,7 @@ public class StudentController implements Controller {
 		ModelAndView modelAndView = null;
 		String studentName = request.getParameter("studentName");
 		System.out.println("Name:" + studentName);
+		System.out.println("Name:" + studentName);
 		Student student = new Student();
 		student.setStudentName(studentName);
 		try{
